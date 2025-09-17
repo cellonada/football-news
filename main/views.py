@@ -11,6 +11,7 @@ from main.forms import NewsForm
 from main.models import News
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 
+#tess
 # Create your views here.
 @login_required(login_url='/login')
 def show_main(request):
